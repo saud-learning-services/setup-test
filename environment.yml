@@ -1,0 +1,11 @@
+name: setup-test
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python-dotenv
+  - python>=3.8
+  - jupyter
+  - pip
+  - pip:
+      - canvasapi>=2.0.0
