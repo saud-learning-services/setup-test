@@ -42,8 +42,10 @@ or
 ## Want to Try in Terminal?
 > Many of our projects will have instructions similar to the following that are for those who want to run the projects without any GUI. Give it a try if you're keen! 
 ### First Time (do once)
-1. Clone this repo: `$ gh repo clone saud-learning-services/setup-test`
-1. Import environment (once): `$ conda env create -f environment.yml`
+1. Clone this repo: `$ git clone saud-learning-services/setup-test`
+   > - this will create the setup-test directory in whichever folder you are set to in terminal (check with `$ pwd` to see current working directory)
+   > - see [terminal basics](https://github.com/saud-learning-services/instructions-and-other-templates/blob/main/docs/terminal-basics.md) to change directories
+2. Import environment (once): `$ conda env create -f environment.yml`
 
 ### Every Time
 1. Make sure you are in the right directory: `$ pwd` if it isn't `..../setup-test` then you need to navigate to it: `$ cd {YOUR_PATH}/setup-test`
@@ -51,4 +53,4 @@ or
 3. Activate the environment: `$ conda activate setup-test`
 4. Launch jupyter: `$ jupyter notebook`
 5. Follow instructions
-6. You're basically a wizard now 🧙‍♀️ 
+6. You're basically a wizard now [🧙‍♀️](https://tenor.com/bo4Bs.gif) 
